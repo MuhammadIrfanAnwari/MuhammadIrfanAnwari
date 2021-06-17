@@ -1,0 +1,27 @@
+.bg-warna{
+	background: linear-gradient(to right, rgba(0, 80, 255, 0.9), rgba(0, 180, 255, 0.9));
+}
+
+.bg-anu{
+	background-image: url("../img/bg.jpg");
+	background-size: cover;
+	background-size: 300px;
+}
+
+.perbesar:hover{
+	transform: scale(2);
+	transition: 0.5s;
+	z-index: 1;
+}
+
+.setengah{
+	transform: scale(0.5);
+}
+
+@media all and (max-width: 1000px){
+	.perbesar:hover{
+		transform: scale(1.2);
+		transition: 0.5s;
+		z-index: 1;
+	}
+}
